@@ -1,0 +1,225 @@
+{
+  "PROGRAM": {
+    "name": "ABCD",
+    "cmd_run": [
+    ],
+    "cmd_stop": [
+    ]
+  },
+  "KEYS": [
+    {
+      "id": "0",
+      "sensivity": "10"
+    },
+    {
+      "id": "1",
+      "sensivity": "11"
+    },
+    {
+      "id": "2",
+      "sensivity": "12"
+    },
+    {
+      "id": "3",
+      "sensivity": "13"
+    },
+    {
+      "id": "4",
+      "sensivity": "14"
+    },
+    {
+      "id": "5",
+      "sensivity": "10"
+    },
+    {
+      "id": "6",
+      "sensivity": "11"
+    },
+    {
+      "id": "7",
+      "sensivity": "12"
+    },
+    {
+      "id": "8",
+      "sensivity": "13"
+    },
+    {
+      "id": "9",
+      "sensivity": "14"
+    }
+  ],
+  "BANKS": [
+    {
+      "id": "0",
+      "name": "abcd1",
+      "KEYS": [
+        {
+          "id": "0",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "a"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "b"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "c"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "d"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "f"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "g"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "h"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "i"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "j"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "k"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "1234",
+      "KEYS": [
+        {
+          "id": "0",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "commands": [
+            {
+              "id": "0",
+              "type": "1",
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
