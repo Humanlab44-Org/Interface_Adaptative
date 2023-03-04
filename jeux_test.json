@@ -231,7 +231,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_UP_ARROW"
+              "value": "218"
             }
           ]
         },
@@ -241,7 +241,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_DOWN_ARROW"
+              "value": "217"
             }
           ]
         },
@@ -251,7 +251,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_RIGHT_ARROW"
+              "value": "216"
             }
           ]
         },
@@ -261,7 +261,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "Barre espace"
+              "value": "215"
             }
           ]
         },
@@ -297,7 +297,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_UP_ARROW"
+              "value": "218"
             }
           ]
         },
@@ -307,7 +307,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_DOWN_ARROW"
+              "value": "217"
             }
           ]
         },
@@ -317,7 +317,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "KEY_RIGHT_ARROW"
+              "value": "216"
             }
           ]
         },
@@ -327,7 +327,7 @@
             {
               "id": "0",
               "type": "1",
-              "value": "Barre espace"
+              "value": "215"
             }
           ]
         },
