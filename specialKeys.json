@@ -1,0 +1,249 @@
+{
+    "_comment": "special keys map",
+    "KEY_LEFT_CTRL": [
+        1,
+        128
+    ],
+    "KEY_LEFT_SHIFT": [
+        1,
+        129
+    ],
+    "KEY_LEFT_ALT": [
+        1,
+        130
+    ],
+    "KEY_LEFT_GUI": [
+        1,
+        131
+    ],
+    "KEY_RIGHT_CTRL": [
+        1,
+        132
+    ],
+    "KEY_RIGHT_SHIFT": [
+        1,
+        133
+    ],
+    "KEY_RIGHT_ALT": [
+        1,
+        134
+    ],
+    "KEY_RIGHT_GUI": [
+        1,
+        135
+    ],
+    "KEY_UP_ARROW": [
+        1,
+        218
+    ],
+    "KEY_DOWN_ARROW": [
+        1,
+        217
+    ],
+    "KEY_LEFT_ARROW": [
+        1,
+        216
+    ],
+    "KEY_RIGHT_ARROW": [
+        1,
+        215
+    ],
+    "KEY_BACKSPACE": [
+        1,
+        178
+    ],
+    "KEY_TAB": [
+        1,
+        179
+    ],
+    "KEY_RETURN": [
+        1,
+        176
+    ],
+    "KEY_ESC": [
+        1,
+        177
+    ],
+    "KEY_INSERT": [
+        1,
+        209
+    ],
+    "KEY_DELETE": [
+        1,
+        211
+    ],
+    "KEY_PAGE_UP": [
+        1,
+        212
+    ],
+    "KEY_PAGE_DOWN": [
+        1,
+        214
+    ],
+    "KEY_HOME": [
+        1,
+        210
+    ],
+    "KEY_END": [
+        1,
+        213
+    ],
+    "KEY_CAPS_LOCK": [
+        1,
+        193
+    ],
+    "KEY_F1": [
+        1,
+        194
+    ],
+    "KEY_F2": [
+        1,
+        195
+    ],
+    "KEY_F3": [
+        1,
+        196
+    ],
+    "KEY_F4": [
+        1,
+        197
+    ],
+    "KEY_F5": [
+        1,
+        198
+    ],
+    "KEY_F6": [
+        1,
+        199
+    ],
+    "KEY_F7": [
+        1,
+        200
+    ],
+    "KEY_F8": [
+        1,
+        201
+    ],
+    "KEY_F9": [
+        1,
+        202
+    ],
+    "KEY_F10": [
+        1,
+        203
+    ],
+    "KEY_F11": [
+        1,
+        204
+    ],
+    "KEY_F12": [
+        1,
+        205
+    ],
+    "MOUSE_CLICK_LEFT": [
+        2,
+        1
+    ],
+    "MOUSE_CLICK_RIGHT": [
+        2,
+        2
+    ],
+    "MOUSE_CLICK_MIDDLE": [
+        2,
+        4
+    ],
+    "MOUSE_CLICK_BACK": [
+        2,
+        8
+    ],
+    "MOUSE_CLICK_FORWARD": [
+        2,
+        16
+    ],
+    "MOUSE_MOVE_LEFT": [
+        3,
+        1
+    ],
+    "MOUSE_MOVE_RIGHT": [
+        3,
+        2
+    ],
+    "MOUSE_MOVE_BACK": [
+        3,
+        4
+    ],
+    "MOUSE_MOVE_FORWARD": [
+        3,
+        8
+    ],
+    "KEY_MEDIA_NEXT_TRACK": [
+        4,
+        1,
+        0
+    ],
+    "KEY_MEDIA_PREVIOUS_TRACK": [
+        4,
+        2,
+        0
+    ],
+    "KEY_MEDIA_STOP": [
+        4,
+        4,
+        0
+    ],
+    "KEY_MEDIA_PLAY_PAUSE": [
+        4,
+        8,
+        0
+    ],
+    "KEY_MEDIA_MUTE": [
+        4,
+        16,
+        0
+    ],
+    "KEY_MEDIA_VOLUME_UP": [
+        4,
+        32,
+        0
+    ],
+    "KEY_MEDIA_VOLUME_DOWN": [
+        4,
+        64,
+        0
+    ],
+    "KEY_MEDIA_WWW_HOME": [
+        4,
+        128,
+        0
+    ],
+    "KEY_MEDIA_LOCAL_MACHINE_BROWSER": [
+        4,
+        0,
+        1
+    ],
+    "KEY_MEDIA_CALCULATOR": [
+        4,
+        0,
+        2
+    ],
+    "KEY_MEDIA_WWW_BOOKMARKS": [
+        4,
+        0,
+        4
+    ],
+    "KEY_MEDIA_WWW_SEARCH": [
+        4,
+        0,
+        8
+    ],
+    "KEY_MEDIA_WWW_STOP": [
+        4,
+        0,
+        16
+    ],
+    "KEY_MEDIA_WWW_BACK": [
+        4,
+        0,
+        32
+    ]
+}
