@@ -1,0 +1,38 @@
+{
+    "PROGRAM": {
+        "name": "Modele",
+        "comment": "bla bla",
+        "cmd_run": [
+            {
+                "comment": "bla bla",
+                "type": "0",
+                "value": "start defaut"
+            }
+        ],
+        "cmd_stop": [
+            {
+                "comment": "bla bla",
+                "type": "0",
+                "value": "start defaut"
+            }
+        ]
+    },
+    "BANKS": [
+        {
+            "name": "ex1",
+            "KEYS": [
+                {
+                    "name": "touche 0",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "a",
+                            "type": "1",
+                            "value": "a"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

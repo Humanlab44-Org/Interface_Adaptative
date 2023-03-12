@@ -1,0 +1,47 @@
+{
+  "PROGRAM": {
+    "name": "copier-coller",
+    "comment": "bla bla",
+    "cmd_run": [],
+    "cmd_stop": []
+  },
+  "BANKS": [
+    {
+      "name": "ctrlC-CtrlV",
+      "KEYS": [
+        {
+          "name": "ctrl C",
+          "sensibility": "25",
+          "commands": [
+            {
+              "name": "ctrl",
+              "type": "1",
+              "value": "128"
+            },
+            {
+              "name": "c",
+              "type": "1",
+              "value": "c"
+            }
+          ]
+        },
+        {
+          "name": "ctrl V",
+          "sensibility": "25",
+          "commands": [
+            {
+              "name": "ctrl",
+              "type": "1",
+              "value": "128"
+            },
+            {
+              "name": "v",
+              "type": "1",
+              "value": "v"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

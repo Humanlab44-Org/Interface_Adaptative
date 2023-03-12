@@ -1,155 +1,72 @@
 {
   "PROGRAM": {
-    "name": "ABCD",
+    "name": "ABCD tests",
+    "comment": "bla bla",
     "cmd_run": [
+      {
+        "comment": "bla bla",
+        "type": "0",
+        "value": "start virtual Keyboard"
+      }
     ],
     "cmd_stop": [
+      {
+        "comment": "bla bla",
+        "type": "0",
+        "value": "stop virtual Keyboard"
+      }
     ]
   },
-  "KEYS": [
-    {
-      "id": "0",
-      "sensivity": "10"
-    },
-    {
-      "id": "1",
-      "sensivity": "11"
-    },
-    {
-      "id": "2",
-      "sensivity": "12"
-    },
-    {
-      "id": "3",
-      "sensivity": "13"
-    },
-    {
-      "id": "4",
-      "sensivity": "14"
-    },
-    {
-      "id": "5",
-      "sensivity": "10"
-    },
-    {
-      "id": "6",
-      "sensivity": "11"
-    },
-    {
-      "id": "7",
-      "sensivity": "12"
-    },
-    {
-      "id": "8",
-      "sensivity": "13"
-    },
-    {
-      "id": "9",
-      "sensivity": "14"
-    }
-  ],
   "BANKS": [
     {
-      "id": "0",
-      "name": "abcd1",
+      "name": "abcd",
       "KEYS": [
         {
-          "id": "0",
+          "name": "touche 0",
+          "sensibility": "25",
           "commands": [
             {
-              "id": "0",
+              "name": "a0",
               "type": "1",
-              "value": "a"
+              "value": "a0"
+            },
+            {
+              "name": "a1",
+              "type": "1",
+              "value": "a1"
             }
           ]
         },
         {
-          "id": "1",
+          "name": "touche 1",
+          "sensibility": "25",
           "commands": [
             {
-              "id": "0",
+              "name": "b",
               "type": "1",
               "value": "b"
             }
           ]
         },
         {
-          "id": "2",
+          "name": "touche 2",
+          "sensibility": "25",
           "commands": [
             {
-              "id": "0",
+              "name": "c",
               "type": "1",
               "value": "c"
             }
           ]
         },
         {
-          "id": "3",
+          "name": "touche 3",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
               "type": "1",
               "value": "d"
-            }
-          ]
-        },
-        {
-          "id": "4",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "e"
-            }
-          ]
-        },
-        {
-          "id": "5",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "f"
-            }
-          ]
-        },
-        {
-          "id": "6",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "g"
-            }
-          ]
-        },
-        {
-          "id": "7",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "h"
-            }
-          ]
-        },
-        {
-          "id": "8",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "i"
-            }
-          ]
-        },
-        {
-          "id": "9",
-          "commands": [
-            {
-              "id": "0",
-              "type": "1",
-              "value": "j"
             }
           ]
         },
@@ -166,11 +83,11 @@
       ]
     },
     {
-      "id": "1",
       "name": "1234",
       "KEYS": [
         {
-          "id": "0",
+          "name": "touche 0",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
@@ -180,7 +97,8 @@
           ]
         },
         {
-          "id": "1",
+          "name": "touche 1",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
@@ -190,7 +108,8 @@
           ]
         },
         {
-          "id": "2",
+          "name": "touche 2",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
@@ -200,7 +119,8 @@
           ]
         },
         {
-          "id": "3",
+          "name": "touche 3",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
@@ -210,7 +130,8 @@
           ]
         },
         {
-          "id": "4",
+          "name": "touche 04",
+          "sensibility": "25",
           "commands": [
             {
               "id": "0",
