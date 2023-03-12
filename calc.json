@@ -1,0 +1,152 @@
+{
+    "PROGRAM": {
+        "name": "Sim_CALC",
+        "comment": "calculette",
+        "cmd_run": [
+            {
+                "comment": "bla bla",
+                "type": "1",
+                "value": "128"
+            },
+            {
+                "comment": "bla bla",
+                "type": "1",
+                "value": "130"
+            },
+            {
+                "comment": "bla bla",
+                "type": "1",
+                "value": "c"
+            }
+        ],
+        "cmd_stop": [
+            {
+                "comment": "bla bla",
+                "type": "1",
+                "value": "130"
+            },
+            {
+                "comment": "bla bla",
+                "type": "1",
+                "value": "197"
+            }
+        ]
+    },
+    "BANKS": [
+        {
+            "name": "move&clic",
+            "KEYS": [
+                {
+                    "name": "NU",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "NU",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "NU",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "MOVE_FORWARD",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "MOVE_FORWARD",
+                            "type": "3",
+                            "value": "8"
+                        }
+                    ]
+                },
+                {
+                    "name": "MOVE_LEFT",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "MOVE_LEFT",
+                            "type": "3",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "name": "CLICK_LEFT",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "named": "CLICK_LEFT",
+                            "type": "2",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "name": "MOVE_RIGH",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "MOVE_RIGH",
+                            "type": "3",
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "name": "NU",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "NU",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "",
+                            "type": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "MOVE_BACK",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "MOVE_BACK",
+                            "type": "3",
+                            "value": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "PROGRAM": {
+        "name": "Test jeux",
+        "comment": "Bejeweled & Burnin Rubber",
+        "cmd_run": [],
+        "cmd_stop": []
+    },
+    "BANKS": [
+        {
+            "name": "Bejeweled",
+            "KEYS": [
+                {
+                    "name": "touche 0",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_RIGHT_ARROW",
+                            "type": "1",
+                            "value": "218"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 1",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_DOWN_ARROW",
+                            "type": "1",
+                            "value": "217"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 2",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_LEFT_ARROW",
+                            "type": "1",
+                            "value": "216"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 3",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_RIGHT_ARROW",
+                            "type": "1",
+                            "value": "215"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 4",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "a",
+                            "type": "1",
+                            "value": "a"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 5",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "w",
+                            "type": "1",
+                            "value": "w"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Burnin Rubber",
+            "KEYS": [
+                {
+                    "name": "touche 0",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "0KEY_RIGHT_ARROW",
+                            "type": "1",
+                            "value": "218"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 1",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_DOWN_ARROW",
+                            "type": "1",
+                            "value": "217"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 2",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_LEFT_ARROW",
+                            "type": "1",
+                            "value": "216"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 3",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "KEY_RIGHT_ARROW",
+                            "type": "1",
+                            "value": "215"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 4",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "z",
+                            "type": "1",
+                            "value": "z"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 5",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "x",
+                            "type": "1",
+                            "value": "x"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 6",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "t",
+                            "type": "1",
+                            "value": "r"
+                        }
+                    ]
+                },
+                {
+                    "name": "touche 7",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "p",
+                            "type": "1",
+                            "value": "p"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
