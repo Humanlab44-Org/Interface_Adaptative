@@ -1,0 +1,10 @@
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-F_Cu.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-B_Cu.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-F_Paste.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-B_Paste.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-F_Silkscreen.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-B_Silkscreen.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-F_Mask.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-Edge_Cuts.gbr'.
+Création du fichier Gerber "job" 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-Base\HM-Base-job.gbrjob'.
+Info: Fini.

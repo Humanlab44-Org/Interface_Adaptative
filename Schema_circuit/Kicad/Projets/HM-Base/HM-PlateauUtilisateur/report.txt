@@ -1,0 +1,11 @@
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-F_Cu.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-B_Cu.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-F_Paste.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-B_Paste.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-F_Silkscreen.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-B_Silkscreen.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-F_Mask.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-B_Mask.gbr'.
+Plotted to 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-Edge_Cuts.gbr'.
+Création du fichier Gerber "job" 'E:\Documents\TECHNIQUE\KICAD\Projets\HM-PlateauUtilisateur\HM-PlateauUtilisateur-job.gbrjob'.
+Info: Fini.
