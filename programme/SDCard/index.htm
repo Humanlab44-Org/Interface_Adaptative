@@ -1,0 +1,191 @@
+<html lang="en">
+<!---------------------------------------------------------------------------------------
+-- Handipad   interface bluetooth LE  adaptée pour  clavier et souris 
+--              yann@cesbron.org  2023
+------------------------------------------------------------------------------------------>
+<html lang="en">
+
+<head>
+    <title>HandiPad YC 2020</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
+    <!-- On recupere Bootstrap sur le net.. cas d'une connexion avec une box mode station  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   -->
+
+
+    <!--  Bootstrap embarqué ESP en point d'acces sans acces internet  -->
+    <link rel="stylesheet" type="text/css" href="src/bootstrap.css">
+    <script src="src/jquery.js"></script>
+    <script src="src/bootstrap.js"></script>
+    <script src="src/marked.min.js"></script>
+    <script src="src/index.js"></script>
+
+
+    <!-- <script src="src/SD.js"></script> -->
+
+    <!--               la page html commence ici               -->
+    <title>HandiPad</title>
+</head>
+
+
+<link rel="icon" href="img/favicon.ico" />
+
+<body onload="init()">
+
+    <div class="container-fluid">
+        <!--                                                 header              -->
+        <div class="row">
+            <div class="col-xs-4"> <img src="img/blank_keyboards.png" id="bw" width="160" height="65">
+            </div>
+            <div class="col-xs-4">
+                <h3 id="titre">HandiPad (2023)</h3>
+            </div>
+        </div>
+        <!--                                     end header              -->
+
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#cmdes"><img src="img/fullscreen.svg"> Commandes</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#config"> <img src="img/wrench.svg"> Configuration</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#help" onclick="aff_help()"> <img src="img/info.svg"> Aide</a>
+            </li>
+        </ul>
+        <div class="row">
+            <br>
+        </div>
+        <div class="tab-content">
+
+            <!--                                                 onglet config des touches              -->
+            <div id="cmdes" class="tab-pane fade in active">
+
+                <!-- -----------listbox files ------------ -->
+                <div class="well well-sm">
+                    Fichier des touches:
+                    <select id="listBoxKeysFiles" size="1"
+                        onChange="readJsonKeysConfsFile(this.value, reload);"></select>
+                    <button id="removeKeyFile" onClick="removeKeyFile(this)">-</button>
+                    &nbsp &nbsp Banques de touches:
+                    <select id="selectBank" size="1" ondblclick="renameBank(this)" onChange="affKeys(this.value);">
+                    </select>
+                    <button id="addBank" onClick="addBank(this)">+</button>
+                    <button id="removeBank" onClick="removeBank(this)">-</button>
+                    <!-- <button id="renameBank" ondblclick="renameBank(this)">Rename</button> -->
+                    &nbsp &nbsp taille JSON:
+                    <span id="JsonSize"><b>0000</b></span>&nbsp &nbsp (max 4096)
+                </div>
+
+                <!-- -----------start & stop  ------------ -->
+                <div class="well well-sm">
+                    <div class="row" id="cmdRunStop">
+                        &nbsp &nbsp ---------- ici affichage de la config cmd run&stop -----
+                    </div>
+                </div>
+
+                <div class="well well-sm">
+                    <div class="row" id="keysList">
+                        &nbsp &nbsp ---------- ici affichage de la config des touches pour modifs -----
+                    </div>
+                    <div>
+                        <button id="addKey-btn" onClick="addKey()">+</button>
+                        <button id="removeKey-btn" onClick="removeKey()">-</button>
+                    </div>
+                </div>
+                <div class="well well-sm">
+                    <button id="saveKeysConfig-btn" onClick="saveKeysConfig(false)">Enregistrer</button>
+                    <button id="saveConfigNew-btn" onClick="saveKeysConfig(true)">Enregistrer sous</button>
+                    &nbsp &nbsp &nbsp &nbsp
+                    <button id="exportConfig-btn" onClick="exportKeysConfig()">Exporter</button>
+                    <button type="button" data-toggle="modal" data-target="#uploadModal">Importer</button>
+
+                    <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog"
+                        aria-labelledby="uploadModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title" id="uploadModalLabel">Importer un fichier</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="upload-form" method="POST" enctype="multipart/form-data">
+                                        <input type="file" class="form-control-file" id="file" name="file">
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Abandon</button>
+                                    <button type="submit" form="upload-form" class="btn btn-primary"
+                                        id="submit-button">Importer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                                            onglet config              -->
+            <div id="config" class="tab-pane fade">
+                <br>
+                <div class="well well-sm">
+                    <p>&nbsp &nbsp
+                        <input type="text" id="20" name="btn"> &nbsp Nom Bluetooth du clavier
+                    </p>
+                    <p>&nbsp &nbsp
+                        <input type="text" id="21" name="manu"> &nbsp Nom du fabriquant Bluetooth
+                    </p>
+                </div>
+                <div class="well well-sm">
+                    <p>&nbsp &nbsp
+                        <input type="text" id="22" name="sid"> &nbsp Wifi SSID
+                    </p>
+
+                    <p>&nbsp &nbsp
+                        <input type="text" id="23" name="pasw"> &nbsp Wifi Password
+                    </p>
+                </div>
+                <div class="well well-sm">
+                    <p>&nbsp &nbsp
+                        <input type="text" id="24" name="name"> &nbsp Nom
+                    </p>
+                    <p>&nbsp &nbsp
+                        <input type="text" id="25" name="surname"> &nbsp Prenom
+                    </p>
+                    <p>&nbsp &nbsp
+                        <input type="number" id="26" name="pwtimout" step="1" max="60" min="1"> &nbsp Power Off
+                        timeout
+                        (mn)
+                    </p>
+                </div>
+                <div class="well well-sm">
+                    <p>&nbsp &nbsp
+                        <input type="text" id="27" name="lastcfg"> &nbsp Derniere config
+                    </p>
+                    <p>&nbsp &nbsp
+                        <input type="number" id="28" name="nbb" step="1" max="46" min="1"> &nbsp Nombre de boutons
+                        (1-34)
+                    </p>
+                    <p>&nbsp &nbsp
+                        <input type="number" id="29" name="id" step="1" max="5" min="0"> &nbsp Id peripherique (0 defaut
+                        - 5)
+                    </p>
+                </div>
+                <div class="well well-sm">
+                    <button id="saveConfig-btn" onClick="saveConfig()">Enregistrer</button>
+                </div>
+            </div>
+            <!--                                            onglet aide en markdon              -->
+            <div class="tab-pane fade " id="help" role="tabpanel" aria-labelledby="markdown-tab">
+                ----- AIDE ---------
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

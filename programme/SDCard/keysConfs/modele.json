@@ -1,0 +1,26 @@
+{
+    "PROGRAM": {
+        "name": "Modele",
+        "comment": "",
+        "cmd_run": [],
+        "cmd_stop": []
+    },
+    "BANKS": [
+        {
+            "name": "banque 1",
+            "KEYS": [
+                {
+                    "name": "exemple",
+                    "sensibility": "25",
+                    "commands": [
+                        {
+                            "name": "a",
+                            "type": "1",
+                            "value": "a"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

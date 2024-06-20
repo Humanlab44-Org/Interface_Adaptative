@@ -1,0 +1,308 @@
+{
+  "SPECIALS_KEYS": [
+    {
+      "name": "LEFT_CTRL",
+      "type": 1,
+      "value": 128
+    },
+    {
+      "name": "LEFT_SHIFT",
+      "type": 1,
+      "value": 129
+    },
+    {
+      "name": "LEFT_ALT",
+      "type": 1,
+      "value": 130
+    },
+    {
+      "name": "LEFT_GUI",
+      "type": 1,
+      "value": 131
+    },
+    {
+      "name": "RIGHT_CTRL",
+      "type": 1,
+      "value": 132
+    },
+    {
+      "name": "RIGHT_SHIFT",
+      "type": 1,
+      "value": 133
+    },
+    {
+      "name": "RIGHT_ALT",
+      "type": 1,
+      "value": 134
+    },
+    {
+      "name": "RIGHT_GUI",
+      "type": 1,
+      "value": 135
+    },
+    {
+      "name": "UP_ARROW",
+      "type": 1,
+      "value": 218
+    },
+    {
+      "name": "DOWN_ARROW",
+      "type": 1,
+      "value": 217
+    },
+    {
+      "name": "LEFT_ARROW",
+      "type": 1,
+      "value": 216
+    },
+    {
+      "name": "RIGHT_ARROW",
+      "type": 1,
+      "value": 215
+    },
+    {
+      "name": "BACKSPACE",
+      "type": 1,
+      "value": 178
+    },
+    {
+      "name": "TAB",
+      "type": 1,
+      "value": 179
+    },
+    {
+      "name": "RETURN",
+      "type": 1,
+      "value": 176
+    },
+    {
+      "name": "ESC",
+      "type": 1,
+      "value": 177
+    },
+    {
+      "name": "INSERT",
+      "type": 1,
+      "value": 209
+    },
+    {
+      "name": "DELETE",
+      "type": 1,
+      "value": 211
+    },
+    {
+      "name": "PAGE_UP",
+      "type": 1,
+      "value": 212
+    },
+    {
+      "name": "PAGE_DOWN",
+      "type": 1,
+      "value": 214
+    },
+    {
+      "name": "HOME",
+      "type": 1,
+      "value": 210
+    },
+    {
+      "name": "END",
+      "type": 1,
+      "value": 213
+    },
+    {
+      "name": "CAPS_LOCK",
+      "type": 1,
+      "value": 193
+    },
+    {
+      "name": "F1",
+      "type": 1,
+      "value": 194
+    },
+    {
+      "name": "F2",
+      "type": 1,
+      "value": 195
+    },
+    {
+      "name": "F3",
+      "type": 1,
+      "value": 196
+    },
+    {
+      "name": "F4",
+      "type": 1,
+      "value": 197
+    },
+    {
+      "name": "F5",
+      "type": 1,
+      "value": 198
+    },
+    {
+      "name": "F6",
+      "type": 1,
+      "value": 199
+    },
+    {
+      "name": "F7",
+      "type": 1,
+      "value": 200
+    },
+    {
+      "name": "F8",
+      "type": 1,
+      "value": 201
+    },
+    {
+      "name": "F9",
+      "type": 1,
+      "value": 202
+    },
+    {
+      "name": "F10",
+      "type": 1,
+      "value": 203
+    },
+    {
+      "name": "F11",
+      "type": 1,
+      "value": 204
+    },
+    {
+      "name": "F12",
+      "type": 1,
+      "value": 205
+    },
+    {
+      "name": "CLICK_LEFT",
+      "type": 2,
+      "value": 1
+    },
+    {
+      "name": "CLICK_RIGHT",
+      "type": 2,
+      "value": 2
+    },
+    {
+      "name": "CLICK_MIDDLE",
+      "type": 2,
+      "value": 4
+    },
+    {
+      "name": "CLICK_BACK",
+      "type": 2,
+      "value": 8
+    },
+    {
+      "name": "CLICK_FORWARD",
+      "type": 2,
+      "value": 16
+    },
+    {
+      "name": "MOVE_LEFT",
+      "type": 3,
+      "value": 1
+    },
+    {
+      "name": "MOVE_RIGHT",
+      "type": 3,
+      "value": 2
+    },
+    {
+      "name": "MOVE_BACK",
+      "type": 3,
+      "value": 4
+    },
+    {
+      "name": "MOVE_FORWARD",
+      "type": 3,
+      "value": 8
+    },
+    {
+      "name": "NEXT_TRACK",
+      "type": 4,
+      "value": "1,0"
+
+    },
+    {
+      "name": "PREVIOUS_TRACK",
+      "type": 4,
+      "value": "2,0"
+
+    },
+    {
+      "name": "STOP",
+      "type": 4,
+      "value": "4,0"
+
+    },
+    {
+      "name": "PLAY_PAUSE",
+      "type": 4,
+      "value": "8,0"
+
+    },
+    {
+      "name": "MUTE",
+      "type": 4,
+      "value": "16,0"
+
+    },
+    {
+      "name": "VOLUME_UP",
+      "type": 4,
+      "value": "32,0"
+
+    },
+    {
+      "name": "VOLUME_DOWN",
+      "type": 4,
+      "value": "64,0"
+
+    },
+    {
+      "name": "WWW_HOME",
+      "type": 4,
+      "value": "128,0"
+
+    },
+    {
+      "name": "LOCAL_MACHINE_BROWSER",
+      "type": 4,
+      "value": "0,1"
+
+    },
+    {
+      "name": "CALCULATOR",
+      "type": 4,
+      "value": "0,2"
+
+    },
+    {
+      "name": "WWW_BOOKMARKS",
+      "type": 4,
+      "value": "0,4"
+
+    },
+    {
+      "name": "WWW_SEARCH",
+      "type": 4,
+      "value": "0,8"
+
+    },
+    {
+      "name": "WWW_STOP",
+      "type": 4,
+      "value": "0,16"
+
+    },
+    {
+      "name": "WWW_BACK",
+      "type": 4,
+      "value": "0,32"
+
+    }
+  ]
+}
